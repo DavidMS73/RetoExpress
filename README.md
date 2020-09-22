@@ -7,11 +7,11 @@ Luego, en el navegador entrar a la dirección localhost:3000. Se puede entrar al
 
 La API del proyecto es:
 
-- POST /chat/api/messages/ -> envía un JSON para enviar un mensaje al chat. El JSON debe tener el siguiente formato: 
+- POST /chat/api/messages -> envía un JSON para enviar un mensaje al chat. El JSON debe tener el siguiente formato: 
 
     { "message": "Mensaje a enviar", "author": "Autor del mensaje" }
 
-- GET /chat/api/messages/ -> JSON con todos los mensajes que se han enviado.
+- GET /chat/api/messages -> JSON con todos los mensajes que se han enviado.
 
 - GET /chat/api/messages/{{ts}} -> JSON del mensaje con timestamp (ts) dado.
 
